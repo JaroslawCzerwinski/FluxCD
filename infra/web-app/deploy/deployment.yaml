@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: ghcr.io/red-devops/web-app:1.0.0 # {"$imagepolicy": "default:web-app"}
+        image: ghcr.io/red-devops/web-app:1.0.1 # {"$imagepolicy": "default:web-app"}
         ports:
         - name: http
           containerPort: 80
